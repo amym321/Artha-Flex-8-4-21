@@ -1,15 +1,30 @@
+{% comment %} code added - am. added classes menu-padding-social, menu-padding-all, & link-color  {% endcomment %}
 <div class="vertical-menu">
   {% for link in linklists[linklist].links %}
     {% if linklists[link.handle] == empty %}
-      <li><a href="{{ link.url }}" class="top_link {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}" data-dropdown-rel="{{ link.handle }}">{{ link.title }}</a></li>
+    <li><a href="{{ link.url }}" 
+      class="top_link {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}
+      menu-padding-all {% if link.title contains 'Social' %} menu-padding-social {% endif %}" 
+      data-dropdown-rel="{{ link.handle }}">{{ link.title }}</a></li>
     {% else %}
-      <li class="sublink"><a data-no-instant href="{{ link.url }}" class="dropdown_link--vertical {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}" data-dropdown-rel="{{ link.handle }}">{{ link.title }} <span class="icon-down-arrow"></span></a>
+      <li class="sublink">
+        <a data-no-instant href="{{ link.url }}" class="menu-padding-all {% if link.title contains 'Social' %} menu-padding-social link-color {% endif %}
+        dropdown_link--vertical {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}" data-dropdown-rel="{{ link.handle }}">{{ link.title }} 
+          {% comment %} added code - am. no down arrows on links {% endcomment %} {% comment %} 
+          <span class="icon-down-arrow"></span>
+          {% endcomment %} 
+        </a>        
         <ul class="vertical-menu_submenu">
           {% for link in linklists[link.handle].links %}
             {% if linklists[link.handle] == empty %}
-              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            <li><a href="{{ link.url }}" class="{% if link.title contains 'Artisan' or link.title contains 'Initiative' or link.title contains 'Way' %} menu-padding-social {% endif %}">{{ link.title }}</a></li>
             {% else %}
-            <li class="sublink"><a data-no-instant href="{{ link.url }}" class="{% if link.url == '#' %}url-deadlink{% endif %}">{{ link.title }} <span class="right icon-down-arrow"></span></a>
+            <li class="sublink">
+              <a data-no-instant href="{{ link.url }}" class="{% if link.url == '#' %}url-deadlink{% endif %}">{{ link.title }} 
+                {% comment %} no down arrows on links {% endcomment %} {% comment %} 
+                <span class="icon-down-arrow"></span>
+                {% endcomment %} 
+              </a>
               <ul class="vertical-menu_sub-submenu">
                 {% for link in linklists[link.handle].links %}
                   <li><a href="{{ link.url }}" class="{% if link.url == '#' %}url-deadlink{% endif %}" >{{ link.title }}</a></li>
