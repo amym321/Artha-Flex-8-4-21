@@ -57,7 +57,7 @@
               {%- assign image = block.settings.image -%}
               {%- assign mobile_image = block.settings.mobile_image -%}
 
-              {% comment %}
+
               {% if image %}
                 {% if mobile_image %}
                   <div class="is-hidden-mobile-only">
@@ -89,7 +89,7 @@
                   </div>
                 {% endif %}
               {% endif %}
-              {% endcomment %}
+
 
               <div class="caption position-{{ block.settings.text_position }} js-caption">
                 <div class="caption-content testimonial-text {% if image != blank %}testimonial-text-mobile{% endif %} align-{{ block.settings.text_align }}">
