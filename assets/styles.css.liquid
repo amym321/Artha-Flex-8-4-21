@@ -17740,11 +17740,11 @@ footer .social_icons a:hover {
 
 /* collection title margin */
 .collection-info__caption .title {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 /* CTA buttons on Text Columns with Images */
-a.continue-button {
+/* a.continue-button {
   color: #ffffff !important;
   background-color: #97ac46 !important;
   border: none !important;
@@ -17752,4 +17752,75 @@ a.continue-button {
 }
 a.continue-button:hover {
   background-color: #70812b !important;
+} */
+
+/* make original down-arrows on mobile menu transparent */
+#mobile_menu li a span.icon-down-arrow,
+footer span.icon-down-arrow {
+  color: #ffffff00 !important;
+}
+
+/* collection images of homepage Collection List to have no overlay */
+.list-collections .thumbnail .thumbnail-overlay {
+  background-color: #ffffff00 !important; 
+}
+
+/* Titles on collection images of homepage Collection List  */
+.product-wrap .thumbnail-overlay .title {
+  color: #ffffff !important;
+}	
+
+/* Titles on collection images of homepage Collection List to show irrespective of hover */
+.product-wrap:hover .thumbnail-overlay,
+.product-wrap .thumbnail-overlay {  
+  opacity: 1 !important; 
+}
+
+/* Collection List title box styling */
+.product-wrap .collection-details { 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  padding: 13px 10px;
+  text-align: center;
+  line-height: 1.2;
+  transition: all .2s linear;
+  border-color: var(--button-color-border,#333333);
+  background: var(--button-color-background,#333333);
+  color: var(--button-color-text,#fff);
+}
+  
+.product-wrap:hover .collection-details { 
+   border-color: var(--button-color-border,#3c3c3c); 
+   background: var(--button-color-background,#3c3c3c);
+}
+
+.thumbnail-overlay .title {
+  padding: 0 1.3em;
+}
+
+.collection-details h3{ 
+  margin: 0 !important;
+}
+
+/* Collection list title visible on mobile */ 
+.list-collections .thumbnail .thumbnail-overlay, .product-list .thumbnail .thumbnail-overlay, .slider-gallery .thumbnail .thumbnail-overlay {
+  display: block !important;
+ }
+
+ /* Testimonial styling */
+ .homepage-slideshow, .shopify-section--testimonials {
+   width: 100% !important;
+   max-width: none !important;
+   background-color: #f6f5f3;
+}
+
+.caption-content.testimonial-text .headline, .caption-content.testimonial-text h2,
+.caption-content.testimonial-text .subtitle  {
+  color: #333;
+}
+
+.testimonial-block.gallery-cell.testimonial-block--no-image {
+  background-color: #f6f5f3;
 }
