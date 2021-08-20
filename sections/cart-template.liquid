@@ -158,7 +158,8 @@
                 </div>
               {% endif %}
               <p style="float: left; text-align: left; clear: both; margin: 10px 0;">
-                <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+                {% comment %} added code - am. added required attribute on input {% endcomment %}
+                <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" required />
                 <label class="shipping-policy-style" style="display:inline; float:none" for="agree">
                   I agree with the <a href="/pages/shipping-and-returns">Shipping & Return Policy</a>.
                 </label>
