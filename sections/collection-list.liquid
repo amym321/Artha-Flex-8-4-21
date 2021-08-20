@@ -77,7 +77,8 @@
                     {{ "homepage.onboarding.collection_title" | t }}
                   {% endif %}
                 </a>
-                {% if settings.thumbnail_hover_enabled %}
+                
+                {% comment %} added code - am. removed the following:  if settings.thumbnail_hover_enabled  {% endcomment %}
                   <div class="thumbnail-overlay">
                     <a href="{{ collection.url }}" class="hidden-product-link">
                       {% if collection != blank %}
@@ -99,23 +100,26 @@
                           </span>
                         </h3>
                       </div>
+
                       {% comment %} added code - am. removed anchor {% endcomment %}
                       <!-- <a href="{{ collection.url }}"><span class="view_all">{{ 'collections.general.view_all' | t }}</span></a> -->
+                    
                     </div>
                   </div>
-                {% endif %}
+                {% comment %} endif  {% endcomment %}
+
+                {% comment %} added code - am. remove section of code that places title under image {% endcomment %}
+                {% comment %}
                 <a class="collection-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ collection.url }}" itemprop="url">
-                  {% comment %} added code - am. added h3 {% endcomment %}
-                  <h3>
-                    <span class="title">
-                      {% if collection != blank %}
-                        {{ collection.title }}
-                      {% else %}
-                        {{ "homepage.onboarding.collection_title" | t }}
-                      {% endif %}
-                    </span>
-                  </h3>
+                  <span class="title">
+                    {% if collection != blank %}
+                      {{ collection.title }}
+                    {% else %}
+                      {{ "homepage.onboarding.collection_title" | t }}
+                    {% endif %}
+                  </span>
                 </a>
+                {% endcomment %}
               </div>
             </div>
 

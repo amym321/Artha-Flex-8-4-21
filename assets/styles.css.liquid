@@ -17776,8 +17776,9 @@ footer span.icon-down-arrow {
   opacity: 1 !important; 
 }
 
-/* Collection List title box styling */
-.product-wrap .collection-details { 
+/* Collection List title box & Testimonial source box styling */
+.list-collections .product-wrap .collection-details,
+.shopify-section--testimonials p a  { 
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -17790,7 +17791,8 @@ footer span.icon-down-arrow {
   background: var(--button-color-background,#333333);
   color: var(--button-color-text,#fff);
 }
-  
+
+/* Collection List title box styling */
 .product-wrap:hover .collection-details { 
    border-color: var(--button-color-border,#3c3c3c); 
    background: var(--button-color-background,#3c3c3c);
@@ -17824,3 +17826,106 @@ footer span.icon-down-arrow {
 .testimonial-block.gallery-cell.testimonial-block--no-image {
   background-color: #f6f5f3;
 }
+
+/* apply css to Collection List that's normally only applied when settings.thumbnail_hover_enabled  */
+.list-collections-wrapper .collection-info__caption {
+  display: block;
+}
+.list-collections-wrapper .product-wrap {
+  text-align: center;
+  position: relative;
+}
+.list-collections-wrapper .product-wrap:hover .collection-details {
+  opacity: 1;
+  transform: none;
+}
+.list-collections-wrapper .product-wrap:hover .thumbnail-overlay__button {
+  opacity: 1;
+  transform: none;
+}
+.list-collections-wrapper .product-wrap:hover .thumbnail-overlay {
+  opacity: 1;
+}
+.list-collections-wrapper .thumbnail-overlay .info {
+  top: 50%;
+  transform: translateY(-50.1%);
+  padding: 10px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.list-collections-wrapper .thumbnail-overlay .collection-details {
+  position: relative;
+  opacity: 0;
+  transform: translate3d(0, -100%, 0);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  display: block;
+}
+.list-collections-wrapper .thumbnail-overlay .title {
+  display: block;
+  padding: 0 1.3em;
+  position: relative;
+  color: {{ settings.product_hover_text_color }};
+}
+.list-collections .thumbnail .product-info__caption {
+  display: block;
+}
+.list-collections .product-wrap {
+  position: relative;
+}
+.list-collections .product-wrap:hover .product-details {
+  opacity: 1;
+  transform: none;
+}
+.list-collections .product-wrap:hover .quick_shop {
+  opacity: 1;
+  transform: none;
+}
+.list-collections .product-wrap:hover .thumbnail-overlay {
+  opacity: 1;
+}
+.list-collections .thumbnail-overlay .thumbnail-overlay__button {
+  margin-top: 2rem;
+  opacity: 0;
+  pointer-events: all;
+  transform: translate3d(0, 100%, 0);
+}
+.list-collections .thumbnail-overlay .info {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  pointer-events: none;
+  cursor: pointer;
+  color: {{ settings.product_hover_text_color }};
+  font-size: {{ settings.regular_font_size | append: 'px' }};
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list-collections .thumbnail-overlay .product-details {
+  position: relative;
+  opacity: 0;
+  transform: translate3d(0, -100%, 0);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  display: block;
+}
+.list-collections .thumbnail-overlay .title {
+  display: block;
+  padding: 0 1.3em;
+  position: relative;
+  color: {{ settings.product_hover_text_color }};
+}
+/* END - apply css to Collection List that's normally only applied when settings.thumbnail_hover_enabled  */
+
+
+
+
