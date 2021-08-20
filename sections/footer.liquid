@@ -1,3 +1,5 @@
+{% comment %} added code - am.  added svg in multiple places {% endcomment %}
+
 <script
   type="application/json"
   data-section-type="footer"
@@ -101,7 +103,12 @@
           {% elsif block.type == 'link_list' %}
             <div class="footer_menu">
               {% if block.settings.menu != blank %}
-                <h6>{{ linklists[block.settings.menu].title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>{{ linklists[block.settings.menu].title }}                  
+                  <span class="right icon-down-arrow">
+                    {% comment %} code added - am. added svg {% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                  </span>
+                </h6>
 
                 <div class="toggle_content">
                   <ul>
@@ -115,7 +122,12 @@
                   </ul>
                 </div>
               {% else %}
-                <h6>Menu title<span class="right icon-down-arrow"></span></h6>
+                <h6>Menu title
+                  <span class="right icon-down-arrow">
+                    {% comment %} code added - am. added svg {% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                  </span>
+                </h6>
 
                 <div class="toggle_content">
                   <ul>
@@ -129,7 +141,12 @@
           {% elsif block.type == 'text' %}
             <div class="footer_content footer-text {% if block.settings.title == blank %}no-footer-title{% endif %}">
               {% if block.settings.title != blank %}
-                <h6>{{ block.settings.title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>{{ block.settings.title }}
+                  <span class="right icon-down-arrow">
+                    {% comment %} code added - am. added svg {% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                  </span>
+                </h6>
               {% endif %}
 
               {% if block.settings.content %}
@@ -141,13 +158,22 @@
           {% elsif block.type == 'page' %}
             <div class="footer_content footer-text">
               {% if block.settings.page != blank %}
-                <h6>{{ pages[block.settings.page].title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>{{ pages[block.settings.page].title }}
+                  <span class="right icon-down-arrow">
+                    {% comment %} code added - am. added svg {% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                  </span>
+                </h6>
 
                 <div class="toggle_content">
                   {{ pages[block.settings.page].content }}
                 </div>
               {% else %}
-                <h6>Page title<span class="right icon-down-arrow"></span></h6>
+                <h6>Page title
+                    {% comment %} code added - am. added svg {% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                  </span>
+                </h6>
 
                 <div class="toggle_content">
                   <p>{{ 'homepage.onboarding.no_content' | t }}</p>
@@ -197,7 +223,9 @@
             {{ 'layout.general.designer_credits_html' | t }}
           {% endif %}
 
+          {% comment %} code added - am. remove {% endcomment %}{% comment %}
           {{ powered_by_link }}
+          {% endcomment %}
         </p>
 
         {% if section.settings.display_payment_methods %}

@@ -1,3 +1,5 @@
+{% comment %} added code - am.  added svg in multiple places {% endcomment %}
+
 {% if context == 'top_bar_menu' %}
   {% for link in linklists[menu].links %}
     <li>
@@ -29,12 +31,20 @@
     {% else %}
       <li data-mobile-dropdown-rel="{{ link.handle }}" class="sublink">
         {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
-          <a data-no-instant href="{{ link.url }}" class="parent-link--false">
-            {{ link.title }} <span class="right icon-down-arrow"></span>
+          <a data-no-instant href="{{ link.url }}" class="parent-link--false">            
+            {{ link.title }} 
+            <span class="right icon-down-arrow">
+              {% comment %} code added - am. added svg {% endcomment %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+            </span>
           </a>
         {% else %}
           <a data-no-instant href="{{ link.url }}" class="parent-link--true">
-            {{ link.title }} <span class="right icon-down-arrow"></span>
+            {{ link.title }} 
+            <span class="right icon-down-arrow">
+              {% comment %} code added - am. added svg {% endcomment %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+            </span>
           </a>
         {% endif %}
         <ul>
@@ -45,11 +55,18 @@
               <li class="sublink">
                 {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
                   <a data-no-instant href="{{ link.url }}" class="parent-link--false">
-                    {{ link.title }} <span class="right icon-down-arrow"></span>
+                    {{ link.title }} 
+                    <span class="right icon-down-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                    </span>
                   </a>
                 {% else %}
                   <a data-no-instant href="{{ link.url }}" class="parent-link--true">
-                    {{ link.title }} <span class="right icon-down-arrow"></span>
+                    {{ link.title }} 
+                    <span class="right icon-down-arrow">
+                      {% comment %} code added - am. added svg {% endcomment %}
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"/></svg> 
+                    </span>
                   </a>
                 {% endif %}
                 <ul>
