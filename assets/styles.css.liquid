@@ -17738,6 +17738,11 @@ footer .social_icons a:hover {
   color: rgb(67, 168, 0) !important;
 }
 
+/* padding under logo */
+.logo-alignment--center .header__logo {
+  padding-bottom: 5px;
+}
+
 /* collection title margin */
 .collection-info__caption .title {
   margin-top: 30px;
@@ -17909,7 +17914,9 @@ footer span.icon-down-arrow {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */    /* removed this. - am */
+  justify-content: flex-end;        /* changed to this. - am */
+  padding-bottom: 60px;             /* added this. - am */
 }
 .list-collections .thumbnail-overlay .product-details {
   position: relative;
