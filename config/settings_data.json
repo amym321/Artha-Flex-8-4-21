@@ -3023,7 +3023,7 @@
     "headline_color": "#000000",
     "headline_footer_text_color": "#333333",
     "sub_footer_text_color": "#333333",
-    "sale_color": "#d54d4d",
+    "sale_color": "#333333",
     "was_price_color": "#8c8b8b",
     "product_hover_text_color": "#5a5757",
     "promo_text_color": "#333333",
@@ -3079,8 +3079,8 @@
     "repeat_bg": "repeat",
     "bg_fixed": false,
     "bg_stretched": false,
-    "top_bar_bg_color": "#f6f5f3",
-    "top_bar_cart_bg_color": "#f7f4ee",
+    "top_bar_bg_color": "#ffffff",
+    "top_bar_cart_bg_color": "#ffffff",
     "header_bg_color": "#ffffff",
     "header_background": true,
     "transparent_header": true,
@@ -3141,10 +3141,10 @@
     "search_to_display": 5,
     "align_height": false,
     "collection_height": 210,
-    "thumbnail_hover_enabled": true,
+    "thumbnail_hover_enabled": false,
     "display_vendor": false,
     "collection_secondary_image": true,
-    "sale_banner_enabled": true,
+    "sale_banner_enabled": false,
     "collection_swatches": false,
     "mobile_products_per_row": "2",
     "pagination_type": "load_more",
@@ -3743,16 +3743,16 @@
           "promo_text": "<p><em>Our offices are closed for a short summer break. We will be shipping all orders after August 18, 2021<\/em><\/p>",
           "social_icons_header": false,
           "phone_number": "",
-          "top_bar_menu": "main-menu-2",
+          "top_bar_menu": "",
           "show_cart": true,
           "cart_icon": "bag",
           "show_locale_selector": true,
           "show_currency_selector": true,
-          "logo_display_width": 145,
+          "logo_display_width": 205,
           "logo": "shopify:\/\/shop_images\/logo-word.png",
           "logo_home": "shopify:\/\/shop_images\/logo-word.png",
           "logo_mobile": "shopify:\/\/shop_images\/logo-word.png",
-          "main_linklist": "",
+          "main_linklist": "main-menu-2",
           "main_linklist2": "",
           "vertical_menu": true,
           "dropdown_click": false,
@@ -4007,7 +4007,7 @@
           "product_breadcrumb": false,
           "display_vendor": false,
           "display_sku": false,
-          "display_savings": true,
+          "display_savings": false,
           "display_collections": false,
           "display_type": false,
           "display_tags": false,
@@ -4619,194 +4619,6 @@
           "button2_link": ""
         }
       },
-      "page-details-template-2": {
-        "type": "page-details-template-2",
-        "blocks": {
-          "page-details-template-2-0": {
-            "type": "image_with_text_overlay",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/DSC_4834.JPG",
-              "pretext": "<p>Creating collections, one community at a time&nbsp;<\/p>",
-              "title": "Artisan communities",
-              "subtitle": "<p>as we partner with artisans around the globe, each group will contribute its own aesthetic to our growing product range&nbsp;<\/p>",
-              "caption_background": true,
-              "caption_background_transparency": true,
-              "text_position": "center",
-              "text_align": "center",
-              "button1": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "page-details-template-2-1": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-2-2": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "INDIA",
-              "content": "<p>A country rich in traditions that vary greatly from north to south, we continue to be inspired by cultures, skills and&nbsp;<\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "page-details-template-2-3": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-2-10": {
-            "type": "blog_posts",
-            "settings": {
-              "title": "",
-              "blog_widget_select": "",
-              "home_page_articles": 4,
-              "blog_tags": false,
-              "blog_author": false,
-              "blog_date": false,
-              "blog_comment_count": false,
-              "read_more_link": false
-            }
-          },
-          "page-details-template-2-5": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-2-6": {
-            "type": "featured_video",
-            "settings": {
-              "source": "vimeo",
-              "aspect_ratio": "16:9",
-              "autoplay": true,
-              "autoloop": true,
-              "video_dark_overlay": false,
-              "video": "https:\/\/vimeo.com\/181818552",
-              "mp4": "",
-              "ogv": "",
-              "image": "",
-              "display_text_over_video": false,
-              "pretext": "<p>Jamdani Weaving - an ancient Indian Craft&nbsp;<\/p>",
-              "title": "",
-              "subtitle": "",
-              "text_position": "center",
-              "text_align": "center",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "button1_label": "Play Video",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2_label": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "page-details-template-2-13": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-2-9": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "1524666904440": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "SOUTH AFRICA",
-              "content": "<p>Write something here about South Africa: experiences, culture etx...<\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "1524666884726": {
-            "type": "blog_posts",
-            "settings": {
-              "title": "",
-              "blog_widget_select": "",
-              "home_page_articles": 4,
-              "blog_tags": false,
-              "blog_author": false,
-              "blog_date": false,
-              "blog_comment_count": false,
-              "read_more_link": false
-            }
-          },
-          "page-details-template-2-11": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "1524666967275": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "TIBET",
-              "content": "<p>Plateaus that line<\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "page-details-template-2-15": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "1524667152307": {
-            "type": "blog_posts",
-            "settings": {
-              "title": "",
-              "blog_widget_select": "",
-              "home_page_articles": 3,
-              "blog_tags": false,
-              "blog_author": false,
-              "blog_date": true,
-              "blog_comment_count": true,
-              "read_more_link": true
-            }
-          }
-        },
-        "block_order": [
-          "page-details-template-2-0",
-          "page-details-template-2-1",
-          "page-details-template-2-2",
-          "page-details-template-2-3",
-          "page-details-template-2-10",
-          "page-details-template-2-5",
-          "page-details-template-2-6",
-          "page-details-template-2-13",
-          "page-details-template-2-9",
-          "1524666904440",
-          "1524666884726",
-          "page-details-template-2-11",
-          "1524666967275",
-          "page-details-template-2-15",
-          "1524667152307"
-        ],
-        "settings": {
-        }
-      },
       "1524744024580": {
         "type": "divider",
         "settings": {
@@ -4837,130 +4649,6 @@
           "toggle": false
         }
       },
-      "page-details-template-3": {
-        "type": "page-details-template-3",
-        "blocks": {
-          "page-details-template-3-0": {
-            "type": "image_with_text_overlay",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/DSC_4834.JPG",
-              "pretext": "<p>Introducing&nbsp;<\/p>",
-              "title": "Products with a purpose",
-              "subtitle": "<p>ARTHA<\/p>\n<p>Translated from Sanskrit as \"meaning, sense, goal, purpose or essence.\"<\/p>\n<p>We named our business to reflect exactly what we aim to achieve through the products we sell and the artisan partnerships we form.<\/p>",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "text_position": "center",
-              "text_align": "center",
-              "button1": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "page-details-template-3-1": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "1525337849788": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "",
-              "content": "<p>We believe in the beauty and quality of pieces that are hand made and that the traditions, heritage and craft of artisans should be kept alive and celebrated. We also believe that supporting communities by helping them keep alive and developing their craft has incredible value. Not only does it permit an alternative to mass-produced items and the conditions they are produced in, it empowers communities financially and socially.<\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "page-details-template-3-3": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-7": {
-            "type": "image_with_text",
-            "settings": {
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "left",
-              "image": "shopify:\/\/shop_images\/From_Sheep_to_Carpet_1.jpeg",
-              "title": "OUR PARTNERS",
-              "text": "<p>That is why we find talented artisan communities around the world with whom to partner and to produce our selected collections of home goods &amp; accessories. With each collection being created by a different community in different parts of the globe, each piece has its own history imparted with a different time-tested craft technique.<\/p>",
-              "link": "",
-              "button_label": "Meet the COmmunities"
-            }
-          },
-          "page-details-template-3-9": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-8": {
-            "type": "image_with_text",
-            "settings": {
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "right",
-              "image": "shopify:\/\/shop_images\/From_Sheep_to_Carpet_2.jpeg",
-              "title": "Social Impact",
-              "text": "<p>As we discover and develop our relationships with new artisan partners, we aim to visit each group and spend time with them, to get to know them, their culture and the way they work. Personally travelling to meet the artisans whenever possible and building lasting relationships allows us to see for ourselves that the fair treatment and positive work environments of the artisans is maintained.&nbsp;By forming long lasting relationships with the groups and producing collections on a continuous basis,&nbsp;we aim to offer artisans a sustainable source of income year round.<\/p>",
-              "link": "",
-              "button_label": "Learn more"
-            }
-          },
-          "page-details-template-3-11": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-13": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-15": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-17": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-3-19": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          }
-        },
-        "block_order": [
-          "page-details-template-3-0",
-          "page-details-template-3-1",
-          "1525337849788",
-          "page-details-template-3-3",
-          "page-details-template-3-7",
-          "page-details-template-3-9",
-          "page-details-template-3-8",
-          "page-details-template-3-11",
-          "page-details-template-3-13",
-          "page-details-template-3-15",
-          "page-details-template-3-17",
-          "page-details-template-3-19"
-        ],
-        "settings": {
-        }
-      },
       "1527689755420": {
         "type": "divider",
         "settings": {
@@ -4968,225 +4656,6 @@
           "divider_border": false,
           "css_class": "",
           "custom_css": ""
-        }
-      },
-      "page-details-template-4": {
-        "type": "page-details-template-4",
-        "blocks": {
-          "1527693384371": {
-            "type": "image_with_text_overlay",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/From_Sheep_to_Carpet_6.jpeg",
-              "pretext": "",
-              "title": "ON the Ground",
-              "subtitle": "<p>With our artisan partner<\/p>",
-              "caption_background": true,
-              "caption_background_transparency": true,
-              "text_position": "center",
-              "text_align": "center",
-              "button1": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "page-details-template-4-1": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-2": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "",
-              "content": "<p>Raw videos, images and updates of our current productions. Join us in experiencing our supply chain first hand!<\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "page-details-template-4-3": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-5": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "1527696917446": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "",
-              "title": "March 2018 - Maki Pouch Production",
-              "content": "<p><\/p>\n<p><\/p>",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "page-details-template-4-16": {
-            "type": "image_gallery",
-            "settings": {
-              "page_landing_image_1": "shopify:\/\/shop_images\/On_the_Ground_edited-1.jpg",
-              "page_landing_image_2": "shopify:\/\/shop_images\/On_the_Ground_edited-2.jpg",
-              "page_landing_image_3": "shopify:\/\/shop_images\/On_the_Ground_edited-3.jpg"
-            }
-          },
-          "page-details-template-4-6": {
-            "type": "featured_video",
-            "settings": {
-              "source": "youtube",
-              "aspect_ratio": "16:9",
-              "autoplay": false,
-              "autoloop": true,
-              "video_dark_overlay": false,
-              "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-              "mp4": "",
-              "ogv": "",
-              "image": "",
-              "display_text_over_video": false,
-              "pretext": "",
-              "title": "Featured Video Section",
-              "subtitle": "",
-              "text_position": "center",
-              "text_align": "center",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "button1_label": "Play Video",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2_label": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "page-details-template-4-7": {
-            "type": "image_with_text",
-            "settings": {
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "left",
-              "image": "",
-              "title": "Your headline",
-              "text": "<p>Promotion description appears here.<\/p>",
-              "link": "",
-              "button_label": "View all"
-            }
-          },
-          "page-details-template-4-8": {
-            "type": "image_with_text",
-            "settings": {
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "right",
-              "image": "",
-              "title": "Your headline",
-              "text": "<p>Promotion description appears here.<\/p>",
-              "link": "",
-              "button_label": "View all"
-            }
-          },
-          "page-details-template-4-9": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-10": {
-            "type": "blog_posts",
-            "settings": {
-              "title": "Blog posts",
-              "blog_widget_select": "",
-              "home_page_articles": 3,
-              "blog_tags": false,
-              "blog_author": false,
-              "blog_date": true,
-              "blog_comment_count": true,
-              "read_more_link": true
-            }
-          },
-          "page-details-template-4-11": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-12": {
-            "type": "contact_form",
-            "settings": {
-              "title": "Get in touch",
-              "contact_subheading": "Leave a message",
-              "contact_content": "<p>Phasellus viverra nulla ut metus varius laoreet. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Etiam imperdiet imperdiet orci.<\/p>",
-              "contact_text_position": "left",
-              "contact_text_alignment": "left"
-            }
-          },
-          "page-details-template-4-13": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-14": {
-            "type": "map",
-            "settings": {
-              "contact_address": "",
-              "zoom_level": 12,
-              "map_height": 400,
-              "map_stretch": true,
-              "map_greyscale": false,
-              "map_scrolling": false
-            }
-          },
-          "page-details-template-4-15": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-17": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          },
-          "page-details-template-4-19": {
-            "type": "divider",
-            "settings": {
-              "divider_border": false
-            }
-          }
-        },
-        "block_order": [
-          "1527693384371",
-          "page-details-template-4-1",
-          "page-details-template-4-2",
-          "page-details-template-4-3",
-          "page-details-template-4-5",
-          "1527696917446",
-          "page-details-template-4-16",
-          "page-details-template-4-6",
-          "page-details-template-4-7",
-          "page-details-template-4-8",
-          "page-details-template-4-9",
-          "page-details-template-4-10",
-          "page-details-template-4-11",
-          "page-details-template-4-12",
-          "page-details-template-4-13",
-          "page-details-template-4-14",
-          "page-details-template-4-15",
-          "page-details-template-4-17",
-          "page-details-template-4-19"
-        ],
-        "settings": {
         }
       },
       "page-details-index-philosophy-template": {
@@ -5207,8 +4676,10 @@
               "text_align": "center",
               "over_image": false,
               "button1": "",
+              "button1_link": "",
               "button1_highlight": false,
               "button2": "",
+              "button2_link": "",
               "button2_highlight": false,
               "heading-color": "#ffffff",
               "text-color": "#ffffff",
@@ -5228,6 +4699,7 @@
             "type": "bc__divider",
             "settings": {
               "display-mode": "",
+              "divider_spacing": 20,
               "divider_border": false,
               "border-color": "",
               "repeat-background": false,
@@ -5249,6 +4721,7 @@
               "text_size": "featured_text",
               "text_alignment": "center",
               "button_label": "",
+              "button_link": "",
               "heading-color": "",
               "text-color": "",
               "repeat-background": false,
@@ -5267,6 +4740,7 @@
             "type": "bc__divider",
             "settings": {
               "display-mode": "",
+              "divider_spacing": 20,
               "divider_border": false,
               "border-color": "",
               "repeat-background": false,
@@ -5333,6 +4807,7 @@
             "type": "bc__divider",
             "settings": {
               "display-mode": "",
+              "divider_spacing": 20,
               "divider_border": true,
               "border-color": "rgba(0,0,0,0)",
               "repeat-background": false,
@@ -5354,6 +4829,7 @@
               "text_size": "featured_text",
               "text_alignment": "center",
               "button_label": "",
+              "button_link": "",
               "heading-color": "",
               "text-color": "",
               "repeat-background": true,
@@ -5374,18 +4850,23 @@
               "display-mode": "",
               "title": "",
               "image1": "shopify:\/\/shop_images\/1_07cf7699-effe-4b23-a64f-b6d6c7428679.png",
+              "link1": "",
               "heading1": "Fair Wages",
               "text1": "It can take weeks to complete one of our pieces. And for this work we pay our partners fair wages above the established norm. We always pay for sampling and we never push down prices.",
               "image2": "shopify:\/\/shop_images\/2_2c389b2d-4d73-4367-836d-dd1f4d21dcd8.png",
+              "link2": "",
               "heading2": "Only the Best Materials",
               "text2": "We use only the best quality raw materials,  textiles and finishing to complement the incredible handwork.",
               "image3": "shopify:\/\/shop_images\/3_10635491-47ba-4dde-b208-d82d3f0bea57.png",
+              "link3": "",
               "heading3": "Social Production Partners",
               "text3": "We work with on the ground production partners that are also social businesses.",
               "image4": "shopify:\/\/shop_images\/4_b8e4953d-8b12-41c6-ac55-01aef89a6b40.png",
+              "link4": "",
               "heading4": "Transport & Duties",
               "text4": "Our supply chain is complex and shipping, taxes and duty costs all add up. We are always looking to optimize our supply chain and will pass on any savings to you.",
               "image5": "shopify:\/\/shop_images\/5_34413f64-d8c0-415d-9fd3-f14db67f74a7.png",
+              "link5": "",
               "heading5": "Fair Margins",
               "text5": "We sell directly to you so that we can eliminate the costs of the middle man, and keep our mark ups below the retailing norm.",
               "heading-color": "",
@@ -7867,9 +7348,6 @@
           "1539090690340",
           "1530002705255",
           "1532353677787",
-          "1530003136396",
-          "1538141178253",
-          "1539090935134",
           "1530003364964",
           "1532353890460",
           "1528796930876",
@@ -9987,6 +9465,100 @@
           "title": "",
           "frontpage_collections_per_row": 3
         }
+      },
+      "16298429157cc0f4e6": {
+        "type": "testimonial",
+        "blocks": {
+          "16298429157cc0f4e6-0": {
+            "type": "image",
+            "settings": {
+              "title": "Customer Quote 1",
+              "testimonial": "<p>Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. <\/p>",
+              "name": "",
+              "store_name": "",
+              "link": "",
+              "text_position": "center",
+              "text_align": "center",
+              "mobile_image_crop": "none",
+              "caption_content_background": "original"
+            }
+          },
+          "16298429157cc0f4e6-1": {
+            "type": "image",
+            "settings": {
+              "title": "Customer Quote 2",
+              "testimonial": "<p>Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. <\/p>",
+              "name": "",
+              "store_name": "",
+              "link": "",
+              "text_position": "center",
+              "text_align": "center",
+              "mobile_image_crop": "none",
+              "caption_content_background": "original"
+            }
+          },
+          "16298429157cc0f4e6-2": {
+            "type": "image",
+            "settings": {
+              "title": "Customer Quote 3",
+              "testimonial": "<p>Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. Customer Quote. <\/p>",
+              "name": "",
+              "store_name": "",
+              "link": "",
+              "text_position": "center",
+              "text_align": "center",
+              "mobile_image_crop": "none",
+              "caption_content_background": "original"
+            }
+          }
+        },
+        "block_order": [
+          "16298429157cc0f4e6-0",
+          "16298429157cc0f4e6-1",
+          "16298429157cc0f4e6-2"
+        ],
+        "settings": {
+          "wide_display": true,
+          "testimonial_text_animation": "fadeInDown",
+          "testimonial_speed": 6,
+          "activate_adaptiveHeight": false,
+          "mobile_text_below_image": false,
+          "mobile_text_color": "",
+          "css_class": "",
+          "custom_css": ".testimonial-block .headline { \n font-size: 25px }"
+        }
+      },
+      "16298429188c859c50": {
+        "type": "bc__s-divider",
+        "settings": {
+          "divider_spacing": 30,
+          "divider_border": false,
+          "border-color": "",
+          "repeat-background": false,
+          "background-size": "cover",
+          "gradient_overlay": false,
+          "gradient_direction": "left_right",
+          "gradient_1": "#000000",
+          "gradient_2": "#000000",
+          "background-color": "",
+          "master-class": ""
+        }
+      },
+      "1629842982e971dbf0": {
+        "type": "bc__s-divider",
+        "settings": {
+          "divider_spacing": 20,
+          "divider_border": false,
+          "border-color": "",
+          "repeat-background": false,
+          "background-size": "cover",
+          "gradient_overlay": false,
+          "gradient_direction": "left_right",
+          "gradient_1": "#000000",
+          "gradient_2": "#000000",
+          "background-color": "",
+          "master-class": ""
+        }
       }
     },
     "content_for_index": [
@@ -10001,7 +9573,10 @@
       "1580141129315",
       "1540042729213",
       "1524552623490",
-      "1533214545012"
+      "1533214545012",
+      "16298429157cc0f4e6",
+      "16298429188c859c50",
+      "1629842982e971dbf0"
     ]
   }
 }
