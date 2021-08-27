@@ -4,11 +4,14 @@
     {% if linklists[link.handle] == empty %}
     <li><a href="{{ link.url }}" 
       class="top_link {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}
-      menu-padding-all {% if link.title contains 'Social' %} menu-padding-social {% endif %}" 
+      menu-padding-all {% if link.title contains 'Social' %} menu-padding-social {% endif %} 
+      {% if link.title contains 'Inspiration' %} .vertical-menu_submenu.vertical-menu--align-right-inspiration {% endif %}"
       data-dropdown-rel="{{ link.handle }}">{{ link.title }}</a></li>
     {% else %}
       <li class="sublink">
-        <a data-no-instant href="{{ link.url }}" class="menu-padding-all {% if link.title contains 'Social' %} menu-padding-social link-color {% endif %}
+        <a data-no-instant href="{{ link.url }}" class="menu-padding-all 
+        {% if link.title contains 'Social' %} menu-padding-social link-color {% endif %}
+        {% if link.title contains 'Inspiration' %} .vertical-menu_submenu.vertical-menu--align-right-inspiration {% endif %}"
         dropdown_link--vertical {% if link.url == '#' %}url-deadlink{% endif %} {% if link.active %}active{% endif %}" data-dropdown-rel="{{ link.handle }}">{{ link.title }} 
           {% comment %} added code - am. no down arrows on links {% endcomment %} {% comment %} 
           <span class="icon-down-arrow"></span>
